@@ -13,11 +13,6 @@ Bu projeyi çalıştırmadan önce aşağıdaki kütüphaneleri yüklemeniz gere
 - matplotlib
 - skyfield
 
-Yüklemek için:
-
-```bash
-pip install -r requirements.txt
-
 ## Bilgi
 def update_positions(frame):
     """
@@ -29,4 +24,9 @@ def update_positions(frame):
     Returns:
         list: Güncellenmiş grafik noktaları listesi.
     """
+    
+Yüklemek için:
+
+```bash
+pip install -r requirements.txt
 
